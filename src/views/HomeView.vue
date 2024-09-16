@@ -319,6 +319,33 @@
               <v-tooltip bottom>
                 <template v-slot:activator="{ on, attrs }">
                   <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Java"
+                    width="60"
+                    height="60"
+                    v-bind="attrs"
+                    v-on="on"
+                  />
+                </template>
+                <span>Java</span>
+              </v-tooltip>
+              <v-tooltip bottom>
+                <template v-slot:activator="{ on, attrs }">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                    alt="Tailwind CSS"
+                    width="60"
+                    height="60"
+                    v-bind="attrs"
+                    v-on="on"
+                  />
+                </template>
+                <span>Tailwind CSS</span>
+              </v-tooltip>
+
+              <v-tooltip bottom>
+                <template v-slot:activator="{ on, attrs }">
+                  <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                     alt="github"
                     width="60"
@@ -328,6 +355,19 @@
                   />
                 </template>
                 <span>Github</span>
+              </v-tooltip>
+              <v-tooltip bottom>
+                <template v-slot:activator="{ on, attrs }">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+                    alt="Nuxt.js"
+                    width="60"
+                    height="60"
+                    v-bind="attrs"
+                    v-on="on"
+                  />
+                </template>
+                <span>Nuxt.js</span>
               </v-tooltip>
             </div>
             <p>
@@ -552,10 +592,16 @@ export default {
         url: "https://github.com/sandali-singh/My-React-App",
       },
       {
+        imageUrl: require("../assets/images/twitter.webp"),
+        title: "Twitter-clone",
+        subtitle: "Nuxt.JavaScript.Vue.TailwindCss",
+        url: "https://github.com/sandali-singh/twitter-clone",
+      },
+      {
         imageUrl: require("../assets/images/usepopcorn.webp"),
         title: "UsePopcorn",
         subtitle: "React.JavaScript.Html.Css",
-        url: "https://github.com/sandali-singh/usePopcorn-",
+        url: "https://github.com/sandali-singh/usePopcorn",
       },
       {
         imageUrl: require("../assets/images/forkify.webp"),

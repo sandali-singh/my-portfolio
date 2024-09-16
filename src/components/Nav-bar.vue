@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
   <nav>
     <v-app-bar app class="px-2 mx-6 mt-5 mt-md-3 mx-md-auto v-app-bar--fixed">
@@ -109,7 +108,7 @@ export default {
   box-shadow: none;
 }
 </style>
-=======
+
 <template>
   <nav>
     <v-app-bar app class="px-2 mx-6 mt-5 mt-md-3 mx-md-auto v-app-bar--fixed">
@@ -220,4 +219,3 @@ export default {
   box-shadow: none;
 }
 </style>
->>>>>>> a01001b137642a0216ab9939d2d1d8b23cdec215
